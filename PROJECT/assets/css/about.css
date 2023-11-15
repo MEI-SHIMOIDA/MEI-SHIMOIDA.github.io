@@ -1,0 +1,169 @@
+/* about organish */
+.about-pic{
+    width: 100%;
+    height: 650px;
+    align-items: center;
+    position: relative;
+}
+.about-pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about-pic a{
+    width: 50%;
+    height: auto;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    background: #ffffff76;
+    top: 280px;
+    left: 340px;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+}
+.about-pic a p{
+    margin: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+/* concept */
+.concept{
+    width: 100%;
+    height: 300px;
+    margin-top: 19px;
+    background: rgba(122, 85, 1, 0.5);
+    position: relative;
+}
+.concept-title{
+    width: 30%;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    background: white;
+    margin: 25px 35%;
+
+}
+.concept-title h4{
+    margin-top: 10px;
+}
+.content{
+    position: absolute;
+    width: 65%;
+    height: 120px;
+    background: white;
+    top: 40%;
+    left: 18%;
+    padding: 10px;
+    border-radius: 30px;
+}
+.content p{
+    text-align: center;
+    margin-top: 10px;
+}
+/* commitment */
+.commitment{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: row;
+    background: rgba(3, 93, 2, 0.8);
+}
+.commitment-title{
+    width: 100%;
+    height: 50px;
+    padding-top: 20px;
+    background: rgba(3, 93, 2, 0.8);
+}
+.text-box{
+    background: white;
+    width: 30%;
+    height: 50px;
+    padding: 10px auto;
+    margin: 0 auto;
+
+}
+.text-box h4{
+    text-align: center;
+    padding: 10px;
+}
+.commitment-item{
+    width: 20%;
+    background: white;
+    margin: 0 auto;
+    border-radius: 30px;
+    /* border: 2px solid red; */
+}
+.commitment-item p{
+    text-align: center;
+    /* margin: 0 auto; */
+    margin-top: 40px;
+}
+@media(max-width:768px){
+    .about-pic a{
+        width: 60%;
+        left: 150px;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+    }
+    .concept{
+        margin-top: 30px;
+    }
+    .concept-title{
+        width: 40%;
+        margin: 25px 30%;
+    }
+    .content{
+        height: 140px;
+        top: 36%;
+        left: 17%;
+    }
+    .content p{
+        margin-top: 20px;
+        font-size: 13px;
+    }
+    .commitment-item p{
+        font-size: 13px;
+        margin-top: 30px;
+    }
+}
+@media(max-width:480px){
+    .about-pic{
+        height: 200px;
+    }
+    .about-pic a{
+        width: 50%;
+        top: 55px;
+        left: 120px;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .concept{
+        margin-top: 35px;
+    }
+    .concept-title{
+        width: 60%;
+        margin: 25px 30%;
+        left: -8%;
+    }
+    .content p{
+        margin-top: 18px;
+        font-size: 10px;
+    }
+    .text-box{
+        width: 40%;
+        height: 40px;
+    }
+    .text-box h4{
+        padding: 10px;
+    }
+    .commitment-item p{
+        font-size: 10px;
+        margin-top: 35px;
+    }
+}
